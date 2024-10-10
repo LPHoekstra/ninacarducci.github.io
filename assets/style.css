@@ -54,7 +54,7 @@ body {
 }
 
 .picture.left::before {
-	content: ' ';
+	content: '';
 	background-color: #E5975F;
 	width: 374px;
 	height: 329px;
@@ -97,7 +97,7 @@ body {
 	font-size: 14px;
 }
 
-.title {
+.gallery__title {
 	text-align: center;
 	padding-block: 2em;
 }
@@ -150,7 +150,6 @@ body {
 }
 
 .quote {
-	font-family: 'Spectral';
 	font-style: italic;
 	width: 70%;
 	margin: auto;
@@ -164,7 +163,7 @@ body {
 	font-size: 2em;
 }
 
-.quote__author {
+.quote__author cite {
 	font-family: Spectral;
 	font-weight: 800;
 	font-size: 22px;
@@ -174,6 +173,11 @@ body {
 	margin: auto;
 	background-color: #A8D5D8;
 	position: relative;
+}
+
+.services__title {
+	text-align: center;
+	padding-block: 2em;
 }
 
 #services .container::before {
