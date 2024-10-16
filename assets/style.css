@@ -75,7 +75,7 @@ body {
 	height: 100%;
 }
 
-#about-me {
+.about-me {
 	flex: 2
 }
 
@@ -92,7 +92,7 @@ body {
 	width: 60%;
 }
 
-#about-me p {
+.about-me p {
 	width: 80%;
 	font-size: 14px;
 }
@@ -213,6 +213,7 @@ body {
 	position: relative;
 	padding-inline: 100px;
 	padding-block: 100px;
+	padding-block-end: 50px;
 }
 
 #contact .container {
@@ -265,6 +266,19 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.contact {
+	margin: 4rem auto 0 auto;
+	text-align: center;
+}
+
+.contact__title {
+	font-size: 1.25rem;
+}
+
+.contact__address {
+	margin-bottom: 0;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
@@ -280,8 +294,8 @@ input[type="submit"] {
 		margin-bottom: 1em;
 	}
 
-	#about-me h6,
-	#about-me p {
+	.about-me h6,
+	.about-me p {
 		width: 100%;
 	}
 }
